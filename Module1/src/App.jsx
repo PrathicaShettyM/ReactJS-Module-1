@@ -1,5 +1,5 @@
 import './App.css'
-import Person from '../../components/Person'
+import Person from '../../components/Person/Person'
 
 function App() {
   return (
