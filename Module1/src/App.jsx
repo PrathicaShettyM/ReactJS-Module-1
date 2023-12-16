@@ -1,8 +1,9 @@
 import './App.css'
+import { useState } from 'react';
+
 import Person from '../../components/Person/Person'
-import Header from '../../components/Header/Header';
-//import List from '../../components/List/List';
 import Button from '../../components/Button/Button';
+import Header from '../../components/Header/Header';
 import List from '../../components/List/List';
 
 function App() {
@@ -12,7 +13,6 @@ function App() {
       <Header title="ReactJS Assignment"/>
       <Person name="Sam" age="18"/>
       <List cars={cars}/>
-      <Button/>
     </div>
   )
 }
