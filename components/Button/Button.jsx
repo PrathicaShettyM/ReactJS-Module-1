@@ -1,7 +1,9 @@
-function Button({onClick}){
+import './Button.css'
+
+function Button(props){
     return(
-        <div>
-            
+        <div className='btn'>
+            <button onClick={props.onClick}>{props.text}</button>
         </div>
     )
 }

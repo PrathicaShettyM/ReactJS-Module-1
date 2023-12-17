@@ -13,6 +13,7 @@ function App() {
       <Header title="ReactJS Assignment"/>
       <Person name="Sam" age="18"/>
       <List cars={cars}/>
+      <Button text="Click me" onClick={()=> console.log("The button was clicked")}/>
     </div>
   )
 }

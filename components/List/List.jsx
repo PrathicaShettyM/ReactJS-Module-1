@@ -1,7 +1,6 @@
 import './List.css'
 
 function List({cars}){
-    console.log("Hello");
     return(
         <div className="cars">
             <h1>List of Cars</h1>
